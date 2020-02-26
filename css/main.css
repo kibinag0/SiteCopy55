@@ -1,0 +1,23 @@
+#navbarNav .nav-menu-text {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#navbarNav .nav-menu-text:hover {
+  color: #dc3545;
+}
+
+#navbarNav .pink-btn {
+  padding: 0.3rem 1rem;
+  margin-right: 3.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.main-img-box {
+  position: relative;
+  margin-top: 5.2rem;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

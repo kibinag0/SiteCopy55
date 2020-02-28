@@ -37,11 +37,110 @@ $danger: #dc3545;
     position: relative;
     margin-top: 5.2rem;
     width: 100%;
-    // height: 60%;
-    // background-image: url("https://a0.muscache.com/pictures/9d08d356-59b9-4ac4-9f41-5b9c13c2b211.jpg");
-    // background-size: cover;
-    // background-repeat: no-repeat;
 }
+
+
+//フォーム部分
+
+
+
+.form-on-main{
+    background-color: white;
+    height: 485px;
+    width: 460px;
+    position: absolute;
+    top: 4.7rem;
+    right: 5.7rem;
+
+    .form-midashi{
+        height: 160px;
+        padding-top: 30px;
+        background-color: green;
+
+        h2{
+            width: 400px;
+            margin: auto;
+            font-size: 2.5rem;
+            line-height: 1;
+            font-weight: 700;
+    
+        }
+    }
+
+    .form-inside-box{
+        position: relative;
+        background-color: orange;
+        padding: 15px 30px;
+        height: 325px;
+        margin: auto;
+
+        
+
+        p{
+            margin-bottom: 0.5rem;
+        }
+
+        
+
+        .form-inputs{
+            background-color: pink;
+
+            .form-padding{
+                height: 48px;
+                margin-bottom: 8px;
+                appearance: none;
+            }
+
+
+            .flexed-box{
+                display: flex;
+                justify-content: space-between;
+
+                .typeselect1{
+                    width: 56%;
+                    position: relative;
+
+                    div{
+                        width: 15px;
+                        height: 15px;
+                        position: absolute;
+                        top: 10px;
+                        right: 18px;
+                    }
+                  
+                }
+
+                .numofpeople1{
+                    width: 40%;
+                    position: relative;
+
+                    div{
+                        width: 15px;
+                        height: 15px;
+                        position: absolute;
+                        top: 10px;
+                        right: 18px;
+                    }
+        
+                }
+            }
+        }
+        
+        .yen-text{
+            font-size: 38px;
+            margin-right: 6px;
+            line-height: 1.15;
+        }
+
+        .pink-big-btn{
+            width: 100%;
+            height: 50px;
+        }
+
+    }
+
+}
+
 
 
 

@@ -20,4 +20,97 @@
   margin-top: 5.2rem;
   width: 100%;
 }
+
+.form-on-main {
+  background-color: white;
+  height: 485px;
+  width: 460px;
+  position: absolute;
+  top: 4.7rem;
+  right: 5.7rem;
+}
+
+.form-on-main .form-midashi {
+  height: 160px;
+  padding-top: 30px;
+  background-color: green;
+}
+
+.form-on-main .form-midashi h2 {
+  width: 400px;
+  margin: auto;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.form-on-main .form-inside-box {
+  position: relative;
+  background-color: orange;
+  padding: 15px 30px;
+  height: 325px;
+  margin: auto;
+}
+
+.form-on-main .form-inside-box p {
+  margin-bottom: 0.5rem;
+}
+
+.form-on-main .form-inside-box .form-inputs {
+  background-color: pink;
+}
+
+.form-on-main .form-inside-box .form-inputs .form-padding {
+  height: 48px;
+  margin-bottom: 8px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.form-on-main .form-inside-box .form-inputs .flexed-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-on-main .form-inside-box .form-inputs .flexed-box .typeselect1 {
+  width: 56%;
+  position: relative;
+}
+
+.form-on-main .form-inside-box .form-inputs .flexed-box .typeselect1 div {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  right: 18px;
+}
+
+.form-on-main .form-inside-box .form-inputs .flexed-box .numofpeople1 {
+  width: 40%;
+  position: relative;
+}
+
+.form-on-main .form-inside-box .form-inputs .flexed-box .numofpeople1 div {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  right: 18px;
+}
+
+.form-on-main .form-inside-box .yen-text {
+  font-size: 38px;
+  margin-right: 6px;
+  line-height: 1.15;
+}
+
+.form-on-main .form-inside-box .pink-big-btn {
+  width: 100%;
+  height: 50px;
+}
 /*# sourceMappingURL=main.css.map */

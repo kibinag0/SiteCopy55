@@ -46,7 +46,7 @@
             <div class="ml-auto d-none d-md-block pr-2">
                 <span class="navbar-text small mt-3">予想月収</span>
                 <span class="navbar-text small mt-3"><i class="far fa-question-circle"></i></span>
-                <span class="navbar-text h4 mr-2">¥ 211,358</span>
+                <span class="navbar-text h4 mr-2">¥ 208,157</span>
                 <button class="btn btn-danger btn-sm pink-btn" type="button">はじめる</button>
             </div>
         </div>
@@ -57,9 +57,61 @@
     <!-- ここがmain-wrapper -->
     <div class="main-wrapper">
         <div class="main-img-box container-fluid px-0">
+            <!-- メイン画像 -->
             <img src="images/main-img-airbnb.jpg" class="img-fluid" alt="">
-        
+            
+            <!-- フォームboxの中身 -->
+            <div class="form-on-main rounded">
 
+                <!-- ここがフォーム内の見出し -->
+                <div  class="form-midashi rounded-top"><h2>Airbnbホストになって、暮らしをレベルアップ</h2></div>
+
+                <!-- ここがフォームの見出し以下の部分 -->
+                <div class="form-inside-box rounded-bottom">
+
+                    <p>どれくらいの収入が見込めるかチェック</p>
+
+                    <!-- 実際のフォーム -->
+                    <div class="form-inputs">
+
+                        <form>
+                            <div class="form-group mb-1">
+                                <label class="sr-only" for="location1">ロケーション</label>
+                                <input type="text" class="form-control form-padding" id="location1" value="東京" placeholder="ロケーション">
+                            </div>
+
+                            <div class="flexed-box">
+                                <div class="form-group typeselect1">
+                                    <label class="sr-only" for="typeselect1">滞在の種類</label>
+                                    <select class="form-control form-padding" id="typeselect1">
+                                        <option>まるまる貸切</option>
+                                        <option>個室</option>
+                                        <option>シェアルーム</option>
+                                    </select>   
+                                    <div><img src="images/chevron-down-solid.svg" alt=""></div>                            
+                                </div>
+
+                                <div class="form-group numofpeople1">
+                                    <label class="sr-only" for="numofpeople1">人数</label>
+                                    <select class="form-control form-padding" id="numofpeople1">
+                                        <option>ゲスト1人</option>
+                                        <option selected>ゲスト2人</option>
+                                        <option>ゲスト3人</option>
+                                    </select>  
+                                    <div><img src="images/chevron-down-solid.svg" alt=""></div> 
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="d-flex align-items-baseline"><p class="yen-text">¥ 208,157</p><p class="small">月あたり <i class="far fa-question-circle"></i></p></div>
+                    <div><button class="btn btn-danger pink-big-btn mt-3" type="button">はじめる</button></div>
+                </div>
+
+            </div>
+
+          
         </div>
     
 

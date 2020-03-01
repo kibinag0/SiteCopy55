@@ -358,3 +358,53 @@ $danger: #dc3545;
 }
 
 
+// ここからホスティングの詳細
+
+.hosting-text{
+    font-size: 1.6rem;
+    margin-top: 6rem;
+    letter-spacing: -1.2px;
+    margin-bottom: 1.2rem;
+}
+
+.hosting-sub-title{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.plain-text-hosting{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    @extend .plain-text;
+}
+
+.hosting-link{
+    font-size: 0.9rem;
+}
+
+@mixin last-img {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 10.8rem;
+
+}
+
+.last-img-1{
+
+    background-image: url(https://a0.muscache.com/pictures/489faa5d-9519-48fa-aa0e-fe9673165e43.jpg);
+    @include last-img;
+}
+
+.last-img-2{
+    background-image: url(https://a0.muscache.com/pictures/b77eb430-aa14-4ceb-a832-109341f798cd.jpg);
+    @include last-img;
+}
+
+.last-img-3{
+    background-image: url(https://a0.muscache.com/pictures/1ad4d764-38a6-464b-8fdd-b0f3339adf2f.jpg);
+    @include last-img;
+}
+

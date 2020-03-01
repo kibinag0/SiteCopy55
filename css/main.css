@@ -3,7 +3,7 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.hr-line, .small-hr, .small-hr-2, .small-hr-3 {
+.hr-line, .small-hr, .small-hr-2, .small-hr-3, .small-hr-4 {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
   width: 65px;
 }
@@ -258,5 +258,15 @@
 .half-box-text2 {
   margin-right: 0.7rem;
   margin-top: 4.1rem;
+}
+
+.small-hr-4 {
+  margin-top: 6rem;
+  margin-bottom: 1.3rem;
+}
+
+.num-text-data {
+  font-size: 3.5rem;
+  margin-bottom: 0.8rem;
 }
 /*# sourceMappingURL=main.css.map */

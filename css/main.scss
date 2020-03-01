@@ -7,6 +7,12 @@ $danger: #dc3545;
     color: rgba(0,0,0,.5);
 }
 
+
+.hr-line{
+    border-bottom: 1.5px solid rgba(0,0,0,.5);
+    width: 65px;
+}
+
 // nav bar
 
 #navbarNav{
@@ -153,6 +159,7 @@ $danger: #dc3545;
     font-size: 3.6rem;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 3.1rem;
 }
 
 .section-titles{
@@ -167,9 +174,8 @@ $danger: #dc3545;
 
 .small-hr{
     margin-top: 6rem;
-    border-bottom: 1.5px solid rgba(0,0,0,.5);
-    width: 65px;
     margin-bottom: 1.3rem;
+    @extend .hr-line;
 }
 
 // 大枠
@@ -186,10 +192,6 @@ $danger: #dc3545;
         width: 1040px;
         background-color: white;
         margin: auto;
-
-
-
-
 
     }
 
@@ -224,7 +226,7 @@ $danger: #dc3545;
 
         .icon-check{
             font-size: 3rem;
-            margin-top: 2.6rem;
+            // margin-top: 2.6rem;
             margin-bottom: 5px;
             font-weight: 100;
         }
@@ -271,4 +273,23 @@ $danger: #dc3545;
         }
     }
 
+}
+
+// ここから万が一のときも安心です PART
+
+.small-hr-2{
+    margin-top: 9.6rem;
+    margin-bottom: 1.3rem;
+    @extend .hr-line;
+}
+
+
+.checkmark{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.img-top-margin{
+    margin-top: 6rem;
 }

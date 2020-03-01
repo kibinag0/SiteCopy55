@@ -3,6 +3,11 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.hr-line, .small-hr, .small-hr-2 {
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  width: 65px;
+}
+
 #navbarNav .nav-menu-text {
   font-size: 0.9rem;
   margin-left: 0.5rem;
@@ -123,6 +128,7 @@
   font-size: 3.6rem;
   font-weight: 600;
   text-align: center;
+  margin-bottom: 3.1rem;
 }
 
 .section-titles {
@@ -136,8 +142,6 @@
 
 .small-hr {
   margin-top: 6rem;
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
-  width: 65px;
   margin-bottom: 1.3rem;
 }
 
@@ -187,7 +191,6 @@
 
 .three-contents-box .one-third-box .icon-check {
   font-size: 3rem;
-  margin-top: 2.6rem;
   margin-bottom: 5px;
   font-weight: 100;
 }
@@ -230,5 +233,20 @@
 .two-contents-box .half-box-text1 button {
   border-width: 2px;
   padding: 10px 22px;
+}
+
+.small-hr-2 {
+  margin-top: 9.6rem;
+  margin-bottom: 1.3rem;
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.img-top-margin {
+  margin-top: 6rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,7 +2,10 @@
 
 $danger: #dc3545;
 
-
+.plain-text-font{
+    font-size: 1rem;
+    color: rgba(0,0,0,.5);
+}
 
 // nav bar
 
@@ -143,6 +146,129 @@ $danger: #dc3545;
 
 
 
+// ここから画像以下のメインコンテンツ
+
+
+.main-section-title{
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-titles{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.plain-text{
+    line-height: 1.8;
+    @extend .plain-text-font;
+}
+
+.small-hr{
+    margin-top: 6rem;
+    border-bottom: 1.5px solid rgba(0,0,0,.5);
+    width: 65px;
+    margin-bottom: 1.3rem;
+}
+
+// 大枠
+.content-wrapper-big-box{
+    position: relative;
+    background-color: pink;
+    width: 100%;
+    margin: -8.5rem auto;
+    padding-top: 3.8rem;
+
+    // 大枠の中のワク
+    .content-wrapper-inside-box{
+
+        width: 1040px;
+        background-color: white;
+        margin: auto;
 
 
 
+
+
+    }
+
+}
+
+
+
+ // ここから最初の二つの理由 
+ .main-reasons-box{
+    width: 975px;
+    display: flex;
+    justify-content: space-between;
+
+    div{
+
+        padding-left: 0.3rem;
+        width: 450px;
+        background-color: red;
+    }
+}
+
+
+// ここから3ステップでホスティング部分
+
+.three-contents-box{
+    display: flex;
+    justify-content: space-between;
+
+    .one-third-box{
+        width: 33.33333333333333%;
+        background-color: green;
+
+        .icon-check{
+            font-size: 3rem;
+            margin-top: 2.6rem;
+            margin-bottom: 5px;
+            font-weight: 100;
+        }
+    }
+
+   
+}
+
+// ここから2 contents box "the reason why Dennis chose to be a host"
+
+.quote-text{
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+.quote-content-margin{
+    margin-top: 160px;
+}
+
+.quote-plain-text{
+    @extend .plain-text-font;
+    line-height: 1.5;
+}
+
+.two-contents-box{
+    display: flex;
+    justify-content: space-between;
+
+    .half-box{
+        width: 50%;
+        
+        i{
+            font-size: 40px;
+            color: orange;
+        }
+    }
+
+    .half-box-text1{
+        width: 41%;
+
+        button{
+            border-width: 2px;
+            padding: 10px 22px;
+        }
+    }
+
+}

@@ -332,3 +332,29 @@ $danger: #dc3545;
     @extend .hr-line;
 }
 
+
+// ここから良くある質問
+
+.small-hr-6{
+    margin-top: 10.2rem;
+    margin-bottom: 1.2rem;
+    @extend .hr-line;
+}
+
+.btm-margin{
+    margin-bottom: 5.4rem;
+}
+
+.main-reasons-box-question{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    @extend .main-reasons-box;
+}
+
+.question-text{
+    font-size: 1.11rem;
+    margin: 0;
+
+}
+
+

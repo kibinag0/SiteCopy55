@@ -293,3 +293,18 @@ $danger: #dc3545;
 .img-top-margin{
     margin-top: 6rem;
 }
+
+
+// ここからシンプルな決済
+
+.small-hr-3{
+    margin-top: 9.7rem;
+    margin-bottom: 1.3rem;
+    @extend .hr-line;
+}
+
+.half-box-text2{
+    margin-right: 0.7rem;
+    margin-top: 4.1rem;
+    @extend .half-box-text1;
+}
